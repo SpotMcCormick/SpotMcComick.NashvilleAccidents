@@ -11,7 +11,6 @@ Next to get the accident count I had to use the TEXT function on the date column
 ![Screenshot (5)](https://github.com/SpotMcCormick/SpotMcComick.NashvilleAccidents/assets/132832823/3abf61c6-745f-4250-8b1c-498d0eea497c)
 Next I had to use CONCAT with wildcards and COUNTIF to find the count of each interstate to look for a certain text string. Function looked like this =COUNTIF(Accidents!Q:Q,CONCAT("*",Analysis!A41,"*")). I did that for every way an interstate could have been written. 
 The next question I used another COUNTIF for each precinct and inserted a pie chart for stake holders to get a bigger picture of the total accidents and what percentage of each precinct was assigned to each accident. 
-
-
-
+![Screenshot (6)](https://github.com/SpotMcCormick/SpotMcComick.NashvilleAccidents/assets/132832823/3d02c3ef-cd16-44a0-beef-27c863a09d9e)
+The final question I had to use VLOOKUP from the Colliston Type Table and make a new column title Collistion Type. From there I used COUNTIF, AVERAGEIF, and SUMIF function to answer the last of these stakholders questions
 
