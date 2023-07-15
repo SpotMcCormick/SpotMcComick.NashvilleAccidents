@@ -14,5 +14,11 @@ The next question I used another COUNTIF for each precinct and inserted a pie ch
 ![Screenshot (6)](https://github.com/SpotMcCormick/SpotMcComick.NashvilleAccidents/assets/132832823/3d02c3ef-cd16-44a0-beef-27c863a09d9e)
 The final question I had to use VLOOKUP from the Colliston Type Table and make a new column title Collistion Type. From there I used COUNTIF, AVERAGEIF, and SUMIF function to answer the last of these stakholders questions
 
+
+
+
+Came back and built this dashboard for a Power BI project. 
+
+
 Hope you enjoyed!
 
